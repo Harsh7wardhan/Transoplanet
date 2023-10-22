@@ -1,0 +1,60 @@
+/* App.css */
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 30%;
+  height: auto;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.search-button:hover {
+  background-color: #0056b3;
+}
+
+.result-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+button.speak-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.speak-button:hover {
+  background-color: #45a049;
+}
